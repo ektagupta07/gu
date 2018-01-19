@@ -1,19 +1,23 @@
+
 #include<stdio.h>
 #include<conio.h>
 void main()
 {
-int i,n,m;
-printf("enter no");
-scanf("%d",&m);
-printf("enter no");
-scanf("%d",&n);
-for(i=m+1;i<n;i++)
+int n,i,c;
+for(n=2;n<=100;n++)
+{c=0;
+for(i=2;i<=n/2;i++)
 {
-if(i%2==0)
+if(n%i==0)
 {
-printf("%d ",i);
+c++;
+break;
+}
 }
 
+if(c==0 && n!=0)
+printf("%d ",n);
 getch();
+
 }
 }
