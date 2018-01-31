@@ -7,7 +7,7 @@ printf("enter first value");
 scanf("%d", &l);
 printf("enter second value");
 scanf("%d",&r);
-for(n=l;n<=r;n++)
+for(n=l+1;n<r;n++)
 {c=0;
 for(i=2;i<=n/2;i++)
 {
