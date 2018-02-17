@@ -9,7 +9,7 @@ scanf("%s",&s);
 l=strlen(s);
 for(i=l-1;i>=0;i--)
 {
-	if((s[i]=='a')||(s[i]=='e')||(s[i]=='i')||(s[i]=='o')||s[i]=='u')
+	if((s[i]=='a')||(s[i]=='e')||(s[i]=='i')||(s[i]=='o')||(s[i]=='u'))
 	{
 		continue;
 	}
